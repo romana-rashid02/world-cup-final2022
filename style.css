@@ -132,10 +132,18 @@ Second section styling starts
     font-size: 20px;
     margin-top: 10px;
 }
+.card-title-2nd{
+    text-align: center;
+}
 .icons{
     display: flex;
     column-gap: 30px;
     margin-top: 10px;
+}
+.view-all-button{
+    text-align: center;
+    margin-bottom: 20px;
+    display: none;
 }
 
 /* --------------------
@@ -169,7 +177,7 @@ hr{
 .icon-link{
     color: white;
 }
-.fa-brands{
+.fa-square-youtube, .fa-square-twitter, .fa-square-instagram{
     font-size: 40px;
     margin-left: 20px;
 }
@@ -244,5 +252,10 @@ Media query for mobile
         margin: 0 auto;
         gap: 0;
     }
-    
+    .view-all-button{
+        text-align: center;
+        margin-bottom: 20px;
+        display: block;
+        visibility: visible;
+    }
 }
