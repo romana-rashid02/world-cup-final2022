@@ -137,6 +137,7 @@ Second section styling starts
     column-gap: 30px;
     margin-top: 10px;
 }
+
 /* --------------------
 secons section ends 
 ------------------------*/
@@ -222,4 +223,26 @@ Media query for mobile
         display: block;
         margin-left: 0;
     }
+}
+/* media query for tablet  */
+@media screen and (min-width: 577px) and (max-width: 768px){
+    .half-width img{
+        width: 100%;
+    }
+    .blogs{
+        width: 200px;
+        height: 250px;
+        margin-right: 20px;
+    }
+    .links{
+        width: 150px;
+        font-size: 20px;
+        padding: 5px;
+    }
+    .right-container{
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0 auto;
+        gap: 0;
+    }
+    
 }
